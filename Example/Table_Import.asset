@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aecb4b0e72d7b458681bdeed2817e404, type: 3}
+  m_Name: Table_Import
+  m_EditorClassIdentifier: 
+  Table:
+    ID: -1
+    Name: Example
+    columns:
+    - index: 0
+      columnName: ID
+      rows:
+      - columnName: ID
+        columnIndex: 0
+        val: 0
+        index: 0
+      - columnName: ID
+        columnIndex: 0
+        val: 1
+        index: 1
+    - index: 1
+      columnName: Name
+      rows:
+      - columnName: Name
+        columnIndex: 1
+        val: Character
+        index: 0
+      - columnName: Name
+        columnIndex: 1
+        val: Character_2
+        index: 1
+    - index: 2
+      columnName: Stamina
+      rows:
+      - columnName: Stamina
+        columnIndex: 2
+        val: 3
+        index: 0
+      - columnName: Stamina
+        columnIndex: 2
+        val: 4
+        index: 1
+    - index: 3
+      columnName: Health
+      rows:
+      - columnName: Health
+        columnIndex: 3
+        val: 7
+        index: 0
+      - columnName: Health
+        columnIndex: 3
+        val: 5
+        index: 1
+    - index: 4
+      columnName: Speed
+      rows:
+      - columnName: Speed
+        columnIndex: 4
+        val: 5
+        index: 0
+      - columnName: Speed
+        columnIndex: 4
+        val: 7
+        index: 1
+    rowCount: 2
+  TableName: 
+  TableID: -1
